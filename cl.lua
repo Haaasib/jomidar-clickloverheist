@@ -104,7 +104,7 @@ local function breakdoor()
 end
 -- triggers
 RegisterNetEvent('jomidar:clicklover:startheist', function() 
-    local hasItem = QBCore.Functions.HasItem("security_card_01", 1)
+    local hasItem = Jomidar.Functions.HasItem("security_card_01", 1)
     if hasItem then
     Jomidar.Functions.TriggerCallback('jomidar-clicklover:sv:checkTime', function(time)
         if time then
